@@ -4,7 +4,7 @@ import re
 import sys
 
 # Opcodes
-opcodes = ["NOP", "ADD", "SUB", "AND", "OR", "NOT", "INC", "DCR", "SHL", "SHR", "PH0","PH1","PH2","PH3","PH4","PH5","CLR", "LDA", "HLT", "STR", "MOV"]
+opcodes = ["NOP", "ADD", "SUB", "AND", "OR", "NOT", "INC", "DCR", "SHL", "SHR", "PH0","PH1","PH2","PH3","PH4","PH5","CLR", "LDA", "HLT", "STR", "MOV","JMP","JAND","JOR","JNOT"]
 
 current_file_path = None
 is_dark_theme = True
